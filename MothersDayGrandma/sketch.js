@@ -5,7 +5,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(750, 1334);
+  createCanvas(375, 667);
   textFont(f1);
 }
 
