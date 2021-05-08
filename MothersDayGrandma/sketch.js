@@ -7,7 +7,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(375, 667);
+  createCanvas(windowWidth, windowHeight);
   //
   //half height - 333.5
   //
