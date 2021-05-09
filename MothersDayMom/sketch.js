@@ -23,7 +23,7 @@ function draw() {
     case 0:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 2*10) {
+    if (timer > 5*10) {
       timer = 0;
       state = 1;
     }
@@ -44,7 +44,7 @@ function draw() {
     case 1:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 2*10) {
+    if (timer > 5*10) {
       timer = 0;
       state = 2;
     }
@@ -80,7 +80,7 @@ function draw() {
     case 2:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 2*10) {
+    if (timer > 5*10) {
       timer = 0;
       state = 3;
     }
@@ -116,7 +116,7 @@ function draw() {
     case 3:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 2*10) {
+    if (timer > 5*10) {
       timer = 0;
       state = 4;
     }
@@ -152,7 +152,7 @@ function draw() {
     case 4:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 2*10) {
+    if (timer > 5*10) {
       timer = 0;
       state = 5;
     }
@@ -165,7 +165,7 @@ function draw() {
     case 5:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 2*10) {
+    if (timer > 5*10) {
       timer = 0;
       state = 6;
     }
@@ -196,7 +196,7 @@ function draw() {
     case 7:
     background('#7e47ff');
     timer = timer+1;
-    if (timer > 3*10) {
+    if (timer > 4*10) {
       timer = 0;
       state = 8;
     }
@@ -212,7 +212,7 @@ function draw() {
     case 8:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 3*10) {
+    if (timer > 4*10) {
       timer = 0;
       state = 9;
     }
@@ -228,7 +228,7 @@ function draw() {
     case 9:
     background('#7e47ff');
     timer = timer+1;
-    if (timer > 3*10) {
+    if (timer > 4*10) {
       timer = 0;
       state = 10;
     }
@@ -244,7 +244,7 @@ function draw() {
     case 10:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 3*10) {
+    if (timer > 4*10) {
       timer = 0;
       state = 11;
     }
@@ -260,7 +260,7 @@ function draw() {
     case 11:
     background('#7e47ff');
     timer = timer+1;
-    if (timer > 3*10) {
+    if (timer > 4*10) {
       timer = 0;
       state = 12;
     }
@@ -276,7 +276,7 @@ function draw() {
     case 12:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 3*10) {
+    if (timer > 4*10) {
       timer = 0;
       state = 13;
     }
@@ -291,7 +291,7 @@ function draw() {
     case 13:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 5*10) {
+    if (timer > 7*10) {
       timer = 0;
       state = 14;
     }
@@ -304,7 +304,7 @@ function draw() {
     case 14:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 5*10) {
+    if (timer > 7*10) {
       timer = 0;
       state = 15;
     }
@@ -318,7 +318,7 @@ function draw() {
     case 15:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 5*10) {
+    if (timer > 7*10) {
       timer = 0;
       state = 16;
     }
@@ -333,7 +333,7 @@ function draw() {
     case 16:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 5*10) {
+    if (timer > 8*10) {
       timer = 0;
       state = 17;
     }
@@ -356,14 +356,14 @@ function draw() {
     textFont(title);
     textSize(200);
     fill('white');
-    text("MOM",width/2,height/2+240);
+    text("MOM",width/2,height/2+250);
     pop();
     break;
 
     case 17:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 5*10) {
+    if (timer > 7*10) {
       timer = 0;
       state = 18;
     }
@@ -375,20 +375,20 @@ function draw() {
     textFont(title);
     fill('#7e47ff');
     textSize(150);
-    text("MOM",width/2+710,height/2-250);
+    text("MOM",width/2+710,height/2-245);
     pop();
     push();
     textFont(title);
     textSize(150);
     fill('white');
-    text("MOM",width/2+700,height/2-245);
+    text("MOM",width/2+700,height/2-250);
     pop();
     break;
 
     case 18:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 10*10) {
+    if (timer > 8*10) {
       timer = 0;
       state = 19;
     }
@@ -400,13 +400,13 @@ function draw() {
     textFont(title);
     fill('#7e47ff');
     textSize(150);
-    text("MOM",width/2+710,height/2-250);
+    text("MOM",width/2+710,height/2-245);
     pop();
     push();
     textFont(title);
     textSize(150);
     fill('white');
-    text("MOM",width/2+700,height/2-245);
+    text("MOM",width/2+700,height/2-250);
     pop();
 
     //FIRST POINT
@@ -428,7 +428,7 @@ function draw() {
     case 19:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 10*10) {
+    if (timer > 8*10) {
       timer = 0;
       state = 20;
     }
@@ -440,13 +440,13 @@ function draw() {
     textFont(title);
     fill('#7e47ff');
     textSize(150);
-    text("MOM",width/2+710,height/2-250);
+    text("MOM",width/2+710,height/2-245);
     pop();
     push();
     textFont(title);
     textSize(150);
     fill('white');
-    text("MOM",width/2+700,height/2-245);
+    text("MOM",width/2+700,height/2-250);
     pop();
 
     //FIRST POINT
@@ -483,7 +483,7 @@ function draw() {
     case 20:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 10*10) {
+    if (timer > 8*10) {
       timer = 0;
       state = 21;
     }
@@ -495,13 +495,13 @@ function draw() {
     textFont(title);
     fill('#7e47ff');
     textSize(150);
-    text("MOM",width/2+710,height/2-250);
+    text("MOM",width/2+710,height/2-245);
     pop();
     push();
     textFont(title);
     textSize(150);
     fill('white');
-    text("MOM",width/2+700,height/2-245);
+    text("MOM",width/2+700,height/2-250);
     pop();
 
     //FIRST POINT
@@ -553,7 +553,7 @@ function draw() {
     case 21:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 20*10) {
+    if (timer > 8*10) {
       timer = 0;
       state = 22;
     }
@@ -565,13 +565,13 @@ function draw() {
     textFont(title);
     fill('#7e47ff');
     textSize(150);
-    text("MOM",width/2+710,height/2-250);
+    text("MOM",width/2+710,height/2-245);
     pop();
     push();
     textFont(title);
     textSize(150);
     fill('white');
-    text("MOM",width/2+700,height/2-245);
+    text("MOM",width/2+700,height/2-250);
     pop();
 
     push();
@@ -639,7 +639,7 @@ function draw() {
     case 23:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 7*10) {
+    if (timer > 6*10) {
       timer = 0;
       state = 24;
     }
@@ -652,7 +652,7 @@ function draw() {
     case 24:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 5*10) {
+    if (timer > 6*10) {
       timer = 0;
       state = 25;
     }
@@ -672,32 +672,32 @@ function draw() {
     textFont(title);
     textSize(200);
     fill('#7e47ff');
-    text("I", width/2, height/2-200);
+    text("I", width/2+10, height/2-195);
     push();
     fill('white');
-    text("I", width/2-6, height/2-205);
+    text("I", width/2, height/2-200);
     pop();
     break;
 
     case 26:
     background('#D4C2FF');
     timer = timer+1;
-    if (timer > 5*10) {
+    if (timer > 6*10) {
       timer = 0;
       state = 27;
     }
     textFont(title);
     textSize(200);
     fill('#7e47ff');
+    text("I", width/2+10, height/2-195);
+    push();
+    fill('white');
     text("I", width/2, height/2-200);
-    push();
-    fill('white');
-    text("I", width/2-6, height/2-205);
     pop();
-    text("LOVE", width/2, height/2);
+    text("LOVE", width/2+10, height/2+5);
     push();
     fill('white');
-    text("LOVE", width/2-6, height/2+5);
+    text("LOVE", width/2, height/2);
     pop();
     break;
 
@@ -711,20 +711,20 @@ function draw() {
     textFont(title);
     textSize(200);
     fill('#7e47ff');
+    text("I", width/2+10, height/2-195);
+    push();
+    fill('white');
     text("I", width/2, height/2-200);
+    pop();
+    text("LOVE", width/2+10, height/2+5);
     push();
     fill('white');
-    text("I", width/2-6, height/2-206);
-    pop();
     text("LOVE", width/2, height/2);
-    push();
-    fill('white');
-    text("LOVE", width/2-6, height/2+6);
     pop();
-    text("YOU", width/2, height/2+200);
+    text("YOU", width/2+10, height/2+206);
     push();
     fill('white');
-    text("YOU", width/2-6, height/2+206);
+    text("YOU", width/2, height/2+200);
     pop();
     break;
 
